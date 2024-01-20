@@ -45,7 +45,7 @@ args = parser.parse_args()
 
 # import datasets's DataNet API
 sys.path.insert(0, args.input_dir)
-from datanetAPI import DatanetAPI, TimeDist, Sample
+from DatanetAPI import DatanetAPI, TimeDist, Sample
 
 
 def _get_network_decomposition(sample: Sample) -> Tuple[dict, list]:
